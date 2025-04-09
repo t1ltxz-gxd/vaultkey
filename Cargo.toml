@@ -1,0 +1,23 @@
+[package]
+name = "vaultkey"
+description = "A secure and customizable password generator library for Rust, designed to create strong, random passwords with various configuration options."
+version = "0.0.0"
+edition = "2021"
+authors = ["t1ltxz.gxd? <git@t1ltxz.ninja>"]
+license = 'MIT'
+rust-version = '1.81.0'
+keywords = ["password", "generator", "security", "random", "vault"]
+categories = ["cryptography", "authentication", "algorithms", "web-programming"]
+repository = "https://github.com/t1ltxz-gxd/vaultkey"
+documentation = "https://docs.rs/vaultkey"
+
+[dependencies]
+anyhow = "1.0.97"
+thiserror = "2.0.12"
+rand = "0.9.0"
+once_cell = "1.21.3"
+
+[package.metadata.git-cliff.git]
+conventional_commits = true
+commit_parsers = []
+filter_commits = false
