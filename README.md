@@ -29,7 +29,7 @@ vaultkey = {version = "*"}
 
 ## 📖 Usage
 
-### Generate a Snowflake ID with a UNIX epoch
+### Generate a random password
 ```rust
 use vaultkey::PasswordBuilder;
 
